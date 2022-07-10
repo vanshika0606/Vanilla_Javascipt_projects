@@ -1,0 +1,8 @@
+.hide{
+    display: none;
+    visibility: hidden;
+}
+#box{
+   justify-content: space-evenly;
+   
+}

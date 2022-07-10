@@ -1,0 +1,160 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+/* #image{
+    position:absolute;
+    width:100%;
+    height: 100vh;
+    
+} */
+
+/* .container{
+    width:35rem;
+    height:25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+#dot{
+      border: 3px white solid;
+      width:12px;
+      height: 12px;
+      background-color:black;
+      border-radius: 50%;
+      position: relative;
+      top: 9.1rem;
+      left:9.3rem;
+
+
+}
+#circle{
+    
+    border:18px rgb(0, 0, 255) solid;
+    width:320px;
+    height:320px;
+    border-radius: 50%;
+    background-color: black;
+}
+#twelve{
+    font-size: 22px;
+    font-weight: bolder;
+    position: relative;
+    left:9rem;
+    color: white;
+}
+#six{
+    font-size: 22px;
+    font-weight: bolder;
+    position: relative;
+    left:9.3rem;
+    top:15rem;
+    color: white;
+}
+#three{
+    font-size: 22px;
+    font-weight: bolder;
+    position: relative;
+    left:18.5rem;
+    top:4.5rem;
+    color: white;
+}
+#nine{
+    font-size: 22px;
+    font-weight: bolder;
+    position: relative;
+    left:1rem;
+    top:3.125rem;
+    color: white;
+}
+.smalline{
+    border:2px white solid;
+    width:8px;
+    height:2px;
+    background-color: white;
+    
+}
+ #on{
+    position: relative;
+    top:-5rem;
+    left:5rem;
+    transform: rotate(50deg);
+
+}
+#tw{
+    position: relative;
+    top:-2rem;
+    left:2rem;
+    transform: rotate(30deg);
+}
+#thr{
+    position: relative;
+    top:5rem;
+    left:2rem;
+    transform: rotate(-30deg);
+}
+#fou{
+    position: relative;
+    top:8rem;
+    left:4.8rem;
+    transform: rotate(-50deg);
+}
+#fiv{
+    position: relative;
+    top:8rem;
+    left:13.7rem;
+    transform: rotate(50deg);
+}
+#si{
+    position: relative;
+    top:4rem;
+    left:16.8rem;
+    transform: rotate(30deg);
+}
+#sev{
+    position: relative;
+    top:-4rem;
+    left:16.8rem;
+    transform: rotate(-30deg);
+}
+#eig{
+    position: relative;
+    top:-7.4rem;
+    left:13.8rem;
+    transform: rotate(-50deg);
+}
+#second{
+    border:2px rgb(255, 255, 0) solid ;
+    width:0rem;
+    height:8rem;
+    top:-9.2rem;
+    left:9.6rem;
+    background-color:rgb(255, 255, 0);
+    position: relative;
+    transform-origin: bottom;
+}
+#minute{
+    border:2px white solid ;
+     width:0.2rem;
+    height:5.5rem;
+    top:-14.9rem;
+    left:9.7rem; 
+    border-radius: 15%;
+    background-color: white;
+    position:relative; 
+    transform-origin: bottom;
+}
+#hour{
+    border-radius: 15%;
+    border:2px white solid ;
+    width:0.2rem;
+    height:4rem;
+    top:-19rem;
+    left:9.6rem; 
+    background-color: white;
+    position:relative; 
+    transform-origin: bottom;
+}

@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(0, 89, 255, 0.068);
+   
+}
+.head h1{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.head p{
+    font-size: 17px;
+    color: rgb(92, 92, 92);
+}
+.head{
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top:60px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.content{
+   
+    position: relative;
+    margin: 0 20px 0 0;
+    top:50px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    
+    width:90vw;
+}
+
+.content img{
+    width: 35rem;
+    height: 20rem;
+
+}
+.btns{
+   display: flex;
+   align-items: flex-start;
+ 
+   
+}
+.goals{
+    position: relative;
+    top:0px;
+    display: none;
+}
+
+
+.box2{
+   
+    
+    width:35pc ;
+    height: 20pc;
+    background-color: white;
+}
+.box2 p{
+    margin: 20px;
+         line-height: 27px;
+         align-items: center;
+        
+}
+.visible{
+    position: relative;
+    top:0px; 
+    display: none;
+  
+   
+}
+button{
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.137);
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.cclick-btn{
+    display: block;
+   
+}
+.unclick-btn{
+    display: none;
+}
+@media screen  and (min-width: 1250px){
+    .box2{
+        margin:40 0 0 40px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .head{
+         top:0px; 
+    }
+    .box2{
+        margin: 40px 0 0 0;
+    }
+  }

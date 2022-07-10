@@ -1,0 +1,136 @@
+body{
+    background: url(first.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+  
+    
+}
+.hero{
+    
+   height: 100vh;  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.banner h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 45px;  
+}
+.btn-modal-btn{
+    font-size: 17px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: none;
+    background: #645cff;
+    color: white;
+  
+}
+.btn-modal-btn:hover{
+    background-color: #3f3c80;
+   transition: 0.5s;
+}
+
+.banner{
+ 
+    width: 90vw;
+    background-color: white;
+    height: 35vh;
+  
+    text-align: center;
+    border-radius: 5px;
+  
+}
+.hh{
+    
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+   align-items: flex-end;
+}
+.cen{
+     width: 650px; 
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+ 
+    height: 300px; 
+} 
+
+.modal-overlay{
+    position: absolute;
+    top:7px;
+    left:0px;
+    right:0px;
+    height: 100vh; 
+    background-color: rgba(11, 36, 180, 0.349); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    border: 1px black solid;
+    
+}
+.open-modal{
+    visibility: visible;
+}
+.mo{
+    width: 650px; 
+ 
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+    height: 300px; 
+}
+.modal-container{
+    width: 90vw;
+    background-color: white;
+    height: 31vh;
+  
+    text-align: center;
+    border-radius: 5px;
+   
+}
+.mm{
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+   align-items: flex-end;
+}
+.mm h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 45px;  
+}
+.close-btn{
+   float:right;
+   position: relative;
+   top:-150px;
+  margin: 10px 20px;
+   background-color: white;
+   border:white ;
+   font-size: 25px;
+ 
+}
+.close-btn:hover{
+     animation: mymove 0.5s ;
+    
+     font-size: 34px;
+    
+     
+}
+@keyframes mymove {
+    100%{
+        transform: rotate(480deg);
+    }
+    
+}
+@keyframes my {
+    100%{
+        transform: rotate(480deg);
+    }
+}

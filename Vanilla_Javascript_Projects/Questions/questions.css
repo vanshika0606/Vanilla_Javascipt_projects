@@ -1,0 +1,197 @@
+body{
+    background-color: rgba(0, 89, 255, 0.089);
+   
+}
+h1{
+    text-align: center;
+    font-family:'Great Vibes', cursive;
+    color: rgb(218, 147, 41);
+    font-size: 40px;
+    
+}
+.hh{
+   
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.line{
+    border: 1px rgba(0, 0, 0, 0.37) solid;
+    
+}
+ .plus{
+  
+ color: rgb(218, 147, 41);
+ font-size: 30px;
+ border: none;
+ background-color: white;
+ position:absolute;
+} 
+.mm{
+     
+     float: right;
+    
+}
+.minus{
+    border: none;
+   background-color: white;
+    position: relative;
+  visibility: hidden;
+  top:0px;
+ color: rgb(218, 147, 41);
+ font-size: 30px;
+ 
+}
+
+
+.extra{
+    visibility: hidden;
+    display: none;
+} 
+.qone {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0px 30px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    background-color: white;
+    width:600px;
+  
+}
+.extra p{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.712);
+}
+.open-extra{
+    visibility: visible;
+    display: block;
+}
+.qqo{
+  
+    margin: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.qqt{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.qtwo{
+    
+   background-color: white;
+   width:600px;
+   font-family: sans-serif;
+   font-size: 20px;
+   padding: 0px 30px;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+}
+.mm2{
+     
+    float: right;
+   
+}
+.plus2{
+    
+    color: rgb(218, 147, 41);
+    font-size: 30px;
+    border: none;
+    background-color: white;
+    position:absolute;
+ } 
+.minus2{
+    visibility: hidden;
+    position: relative;
+   border:none;
+   background-color: white;
+  top:0px;
+ color: rgb(218, 147, 41);
+ font-size: 30px;
+
+}
+
+.extra2{
+    visibility: hidden;
+    display: none;
+} 
+.line2{
+    border: 0.5px rgba(0, 0, 0, 0.37) solid;
+    
+    
+}
+.extra2 p{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.qqth{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.qthree{
+    
+   background-color: white;
+   width:600px;
+   font-family: sans-serif;
+   font-size: 20px;
+   padding: 0px 30px;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+}
+.mm3{
+     
+    float: right;
+   
+}
+.plus3{
+  
+    color: rgb(218, 147, 41);
+    font-size: 30px;
+    border: none;
+    background-color: white;
+   position: absolute;
+   
+    
+ } 
+.minus3{
+    visibility: hidden;
+  position: relative;
+  
+    border:none;
+    background-color: white;
+  top:0px;
+  left:5px;
+ color: rgb(218, 147, 41);
+ font-size: 30px;
+
+}
+.extra3{
+    visibility: hidden;
+    display: none;
+} 
+.line3{
+    border: 0.5px rgba(0, 0, 0, 0.37) solid;
+    
+    
+}
+.extra3 p{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.712);
+}
+.open-extra{
+    visibility: visible;
+    display: block;
+}
